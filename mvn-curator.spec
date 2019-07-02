@@ -4,17 +4,20 @@
 #
 Name     : mvn-curator
 Version  : 2.6.0
-Release  : 1
-URL      : https://repo1.maven.org/maven2/org/apache/curator/curator-client/2.6.0/curator-client-2.6.0.jar
-Source0  : https://repo1.maven.org/maven2/org/apache/curator/curator-client/2.6.0/curator-client-2.6.0.jar
-Source1  : https://repo1.maven.org/maven2/org/apache/curator/curator-client/2.6.0/curator-client-2.6.0.pom
+Release  : 2
+URL      : https://github.com/apache/curator/archive/apache-curator-2.6.0.tar.gz
+Source0  : https://github.com/apache/curator/archive/apache-curator-2.6.0.tar.gz
+Source1  : https://repo1.maven.org/maven2/org/apache/curator/curator-client/2.6.0/curator-client-2.6.0.jar
+Source2  : https://repo1.maven.org/maven2/org/apache/curator/curator-client/2.6.0/curator-client-2.6.0.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
 Requires: mvn-curator-data = %{version}-%{release}
 
 %description
-No detailed description available
+Apache Curator
+--------------
+Curator is a set of Java libraries that make using Apache ZooKeeper much easier.
 
 %package data
 Summary: data components for the mvn-curator package.
@@ -30,10 +33,10 @@ data components for the mvn-curator package.
 
 %install
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-client/2.6.0
-cp %{SOURCE0} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-client/2.6.0
+cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-client/2.6.0
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-client/2.6.0
-cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-client/2.6.0
+cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-client/2.6.0
 
 
 %files
