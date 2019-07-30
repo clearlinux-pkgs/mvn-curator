@@ -4,30 +4,39 @@
 #
 Name     : mvn-curator
 Version  : 2.6.0
-Release  : 4
+Release  : 5
 URL      : https://github.com/apache/curator/archive/apache-curator-2.6.0.tar.gz
 Source0  : https://github.com/apache/curator/archive/apache-curator-2.6.0.tar.gz
 Source1  : https://repo.maven.apache.org/maven2/org/apache/curator/apache-curator/2.6.0/apache-curator-2.6.0.pom
-Source2  : https://repo1.maven.org/maven2/org/apache/curator/curator-client/2.6.0/curator-client-2.6.0.jar
-Source3  : https://repo1.maven.org/maven2/org/apache/curator/curator-client/2.6.0/curator-client-2.6.0.jar
-Source4  : https://repo1.maven.org/maven2/org/apache/curator/curator-client/2.6.0/curator-client-2.6.0.pom
-Source5  : https://repo1.maven.org/maven2/org/apache/curator/curator-client/2.6.0/curator-client-2.6.0.pom
-Source6  : https://repo1.maven.org/maven2/org/apache/curator/curator-client/2.7.1/curator-client-2.7.1.jar
-Source7  : https://repo1.maven.org/maven2/org/apache/curator/curator-client/2.7.1/curator-client-2.7.1.pom
-Source8  : https://repo1.maven.org/maven2/org/apache/curator/curator-framework/2.6.0/curator-framework-2.6.0.jar
-Source9  : https://repo1.maven.org/maven2/org/apache/curator/curator-framework/2.6.0/curator-framework-2.6.0.pom
-Source10  : https://repo1.maven.org/maven2/org/apache/curator/curator-framework/2.7.1/curator-framework-2.7.1.jar
-Source11  : https://repo1.maven.org/maven2/org/apache/curator/curator-framework/2.7.1/curator-framework-2.7.1.pom
-Source12  : https://repo1.maven.org/maven2/org/apache/curator/curator-recipes/2.6.0/curator-recipes-2.6.0.jar
-Source13  : https://repo1.maven.org/maven2/org/apache/curator/curator-recipes/2.6.0/curator-recipes-2.6.0.pom
-Source14  : https://repo1.maven.org/maven2/org/apache/curator/curator-recipes/2.7.1/curator-recipes-2.7.1.jar
-Source15  : https://repo1.maven.org/maven2/org/apache/curator/curator-recipes/2.7.1/curator-recipes-2.7.1.pom
-Source16  : https://repo1.maven.org/maven2/org/apache/curator/curator-test/2.6.0/curator-test-2.6.0.jar
-Source17  : https://repo1.maven.org/maven2/org/apache/curator/curator-test/2.6.0/curator-test-2.6.0.pom
-Source18  : https://repo1.maven.org/maven2/org/apache/curator/curator-test/2.7.1/curator-test-2.7.1.jar
-Source19  : https://repo1.maven.org/maven2/org/apache/curator/curator-test/2.7.1/curator-test-2.7.1.jar
-Source20  : https://repo1.maven.org/maven2/org/apache/curator/curator-test/2.7.1/curator-test-2.7.1.pom
-Source21  : https://repo1.maven.org/maven2/org/apache/curator/curator-test/2.7.1/curator-test-2.7.1.pom
+Source2  : https://repo1.maven.org/maven2/org/apache/curator/apache-curator/2.12.0/apache-curator-2.12.0.pom
+Source3  : https://repo1.maven.org/maven2/org/apache/curator/curator-client/2.12.0/curator-client-2.12.0.jar
+Source4  : https://repo1.maven.org/maven2/org/apache/curator/curator-client/2.12.0/curator-client-2.12.0.pom
+Source5  : https://repo1.maven.org/maven2/org/apache/curator/curator-client/2.6.0/curator-client-2.6.0.jar
+Source6  : https://repo1.maven.org/maven2/org/apache/curator/curator-client/2.6.0/curator-client-2.6.0.jar
+Source7  : https://repo1.maven.org/maven2/org/apache/curator/curator-client/2.6.0/curator-client-2.6.0.pom
+Source8  : https://repo1.maven.org/maven2/org/apache/curator/curator-client/2.6.0/curator-client-2.6.0.pom
+Source9  : https://repo1.maven.org/maven2/org/apache/curator/curator-client/2.7.1/curator-client-2.7.1.jar
+Source10  : https://repo1.maven.org/maven2/org/apache/curator/curator-client/2.7.1/curator-client-2.7.1.pom
+Source11  : https://repo1.maven.org/maven2/org/apache/curator/curator-framework/2.12.0/curator-framework-2.12.0.jar
+Source12  : https://repo1.maven.org/maven2/org/apache/curator/curator-framework/2.12.0/curator-framework-2.12.0.pom
+Source13  : https://repo1.maven.org/maven2/org/apache/curator/curator-framework/2.6.0/curator-framework-2.6.0.jar
+Source14  : https://repo1.maven.org/maven2/org/apache/curator/curator-framework/2.6.0/curator-framework-2.6.0.pom
+Source15  : https://repo1.maven.org/maven2/org/apache/curator/curator-framework/2.7.1/curator-framework-2.7.1.jar
+Source16  : https://repo1.maven.org/maven2/org/apache/curator/curator-framework/2.7.1/curator-framework-2.7.1.pom
+Source17  : https://repo1.maven.org/maven2/org/apache/curator/curator-recipes/2.12.0/curator-recipes-2.12.0.jar
+Source18  : https://repo1.maven.org/maven2/org/apache/curator/curator-recipes/2.12.0/curator-recipes-2.12.0.pom
+Source19  : https://repo1.maven.org/maven2/org/apache/curator/curator-recipes/2.6.0/curator-recipes-2.6.0.jar
+Source20  : https://repo1.maven.org/maven2/org/apache/curator/curator-recipes/2.6.0/curator-recipes-2.6.0.pom
+Source21  : https://repo1.maven.org/maven2/org/apache/curator/curator-recipes/2.7.1/curator-recipes-2.7.1.jar
+Source22  : https://repo1.maven.org/maven2/org/apache/curator/curator-recipes/2.7.1/curator-recipes-2.7.1.pom
+Source23  : https://repo1.maven.org/maven2/org/apache/curator/curator-test/2.12.0/curator-test-2.12.0.jar
+Source24  : https://repo1.maven.org/maven2/org/apache/curator/curator-test/2.12.0/curator-test-2.12.0.pom
+Source25  : https://repo1.maven.org/maven2/org/apache/curator/curator-test/2.6.0/curator-test-2.6.0.jar
+Source26  : https://repo1.maven.org/maven2/org/apache/curator/curator-test/2.6.0/curator-test-2.6.0.pom
+Source27  : https://repo1.maven.org/maven2/org/apache/curator/curator-test/2.7.1/curator-test-2.7.1.jar
+Source28  : https://repo1.maven.org/maven2/org/apache/curator/curator-test/2.7.1/curator-test-2.7.1.jar
+Source29  : https://repo1.maven.org/maven2/org/apache/curator/curator-test/2.7.1/curator-test-2.7.1.pom
+Source30  : https://repo1.maven.org/maven2/org/apache/curator/curator-test/2.7.1/curator-test-2.7.1.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
@@ -54,65 +63,92 @@ data components for the mvn-curator package.
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/apache-curator/2.6.0
 cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/apache-curator/2.6.0/apache-curator-2.6.0.pom
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-client/2.6.0
-cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-client/2.6.0/curator-client-2.6.0.jar
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/apache-curator/2.12.0
+cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/apache-curator/2.12.0/apache-curator-2.12.0.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-client/2.12.0
+cp %{SOURCE3} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-client/2.12.0/curator-client-2.12.0.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-client/2.12.0
+cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-client/2.12.0/curator-client-2.12.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-client/2.6.0
-cp %{SOURCE3} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-client/2.6.0/curator-client-2.6.0.jar
+cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-client/2.6.0/curator-client-2.6.0.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-client/2.6.0
-cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-client/2.6.0/curator-client-2.6.0.pom
+cp %{SOURCE6} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-client/2.6.0/curator-client-2.6.0.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-client/2.6.0
-cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-client/2.6.0/curator-client-2.6.0.pom
+cp %{SOURCE7} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-client/2.6.0/curator-client-2.6.0.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-client/2.6.0
+cp %{SOURCE8} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-client/2.6.0/curator-client-2.6.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-client/2.7.1
-cp %{SOURCE6} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-client/2.7.1/curator-client-2.7.1.jar
+cp %{SOURCE9} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-client/2.7.1/curator-client-2.7.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-client/2.7.1
-cp %{SOURCE7} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-client/2.7.1/curator-client-2.7.1.pom
+cp %{SOURCE10} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-client/2.7.1/curator-client-2.7.1.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-framework/2.12.0
+cp %{SOURCE11} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-framework/2.12.0/curator-framework-2.12.0.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-framework/2.12.0
+cp %{SOURCE12} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-framework/2.12.0/curator-framework-2.12.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-framework/2.6.0
-cp %{SOURCE8} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-framework/2.6.0/curator-framework-2.6.0.jar
+cp %{SOURCE13} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-framework/2.6.0/curator-framework-2.6.0.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-framework/2.6.0
-cp %{SOURCE9} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-framework/2.6.0/curator-framework-2.6.0.pom
+cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-framework/2.6.0/curator-framework-2.6.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-framework/2.7.1
-cp %{SOURCE10} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-framework/2.7.1/curator-framework-2.7.1.jar
+cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-framework/2.7.1/curator-framework-2.7.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-framework/2.7.1
-cp %{SOURCE11} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-framework/2.7.1/curator-framework-2.7.1.pom
+cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-framework/2.7.1/curator-framework-2.7.1.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-recipes/2.12.0
+cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-recipes/2.12.0/curator-recipes-2.12.0.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-recipes/2.12.0
+cp %{SOURCE18} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-recipes/2.12.0/curator-recipes-2.12.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-recipes/2.6.0
-cp %{SOURCE12} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-recipes/2.6.0/curator-recipes-2.6.0.jar
+cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-recipes/2.6.0/curator-recipes-2.6.0.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-recipes/2.6.0
-cp %{SOURCE13} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-recipes/2.6.0/curator-recipes-2.6.0.pom
+cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-recipes/2.6.0/curator-recipes-2.6.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-recipes/2.7.1
-cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-recipes/2.7.1/curator-recipes-2.7.1.jar
+cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-recipes/2.7.1/curator-recipes-2.7.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-recipes/2.7.1
-cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-recipes/2.7.1/curator-recipes-2.7.1.pom
+cp %{SOURCE22} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-recipes/2.7.1/curator-recipes-2.7.1.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-test/2.12.0
+cp %{SOURCE23} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-test/2.12.0/curator-test-2.12.0.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-test/2.12.0
+cp %{SOURCE24} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-test/2.12.0/curator-test-2.12.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-test/2.6.0
-cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-test/2.6.0/curator-test-2.6.0.jar
+cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-test/2.6.0/curator-test-2.6.0.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-test/2.6.0
-cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-test/2.6.0/curator-test-2.6.0.pom
+cp %{SOURCE26} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-test/2.6.0/curator-test-2.6.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-test/2.7.1
-cp %{SOURCE18} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-test/2.7.1/curator-test-2.7.1.jar
+cp %{SOURCE27} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-test/2.7.1/curator-test-2.7.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-test/2.7.1
-cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-test/2.7.1/curator-test-2.7.1.jar
+cp %{SOURCE28} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-test/2.7.1/curator-test-2.7.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-test/2.7.1
-cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-test/2.7.1/curator-test-2.7.1.pom
+cp %{SOURCE29} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-test/2.7.1/curator-test-2.7.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-test/2.7.1
-cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-test/2.7.1/curator-test-2.7.1.pom
+cp %{SOURCE30} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/curator-test/2.7.1/curator-test-2.7.1.pom
 
 
 %files
@@ -120,19 +156,28 @@ cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/org/apache/curator/cur
 
 %files data
 %defattr(-,root,root,-)
+/usr/share/java/.m2/repository/org/apache/curator/apache-curator/2.12.0/apache-curator-2.12.0.pom
 /usr/share/java/.m2/repository/org/apache/curator/apache-curator/2.6.0/apache-curator-2.6.0.pom
+/usr/share/java/.m2/repository/org/apache/curator/curator-client/2.12.0/curator-client-2.12.0.jar
+/usr/share/java/.m2/repository/org/apache/curator/curator-client/2.12.0/curator-client-2.12.0.pom
 /usr/share/java/.m2/repository/org/apache/curator/curator-client/2.6.0/curator-client-2.6.0.jar
 /usr/share/java/.m2/repository/org/apache/curator/curator-client/2.6.0/curator-client-2.6.0.pom
 /usr/share/java/.m2/repository/org/apache/curator/curator-client/2.7.1/curator-client-2.7.1.jar
 /usr/share/java/.m2/repository/org/apache/curator/curator-client/2.7.1/curator-client-2.7.1.pom
+/usr/share/java/.m2/repository/org/apache/curator/curator-framework/2.12.0/curator-framework-2.12.0.jar
+/usr/share/java/.m2/repository/org/apache/curator/curator-framework/2.12.0/curator-framework-2.12.0.pom
 /usr/share/java/.m2/repository/org/apache/curator/curator-framework/2.6.0/curator-framework-2.6.0.jar
 /usr/share/java/.m2/repository/org/apache/curator/curator-framework/2.6.0/curator-framework-2.6.0.pom
 /usr/share/java/.m2/repository/org/apache/curator/curator-framework/2.7.1/curator-framework-2.7.1.jar
 /usr/share/java/.m2/repository/org/apache/curator/curator-framework/2.7.1/curator-framework-2.7.1.pom
+/usr/share/java/.m2/repository/org/apache/curator/curator-recipes/2.12.0/curator-recipes-2.12.0.jar
+/usr/share/java/.m2/repository/org/apache/curator/curator-recipes/2.12.0/curator-recipes-2.12.0.pom
 /usr/share/java/.m2/repository/org/apache/curator/curator-recipes/2.6.0/curator-recipes-2.6.0.jar
 /usr/share/java/.m2/repository/org/apache/curator/curator-recipes/2.6.0/curator-recipes-2.6.0.pom
 /usr/share/java/.m2/repository/org/apache/curator/curator-recipes/2.7.1/curator-recipes-2.7.1.jar
 /usr/share/java/.m2/repository/org/apache/curator/curator-recipes/2.7.1/curator-recipes-2.7.1.pom
+/usr/share/java/.m2/repository/org/apache/curator/curator-test/2.12.0/curator-test-2.12.0.jar
+/usr/share/java/.m2/repository/org/apache/curator/curator-test/2.12.0/curator-test-2.12.0.pom
 /usr/share/java/.m2/repository/org/apache/curator/curator-test/2.6.0/curator-test-2.6.0.jar
 /usr/share/java/.m2/repository/org/apache/curator/curator-test/2.6.0/curator-test-2.6.0.pom
 /usr/share/java/.m2/repository/org/apache/curator/curator-test/2.7.1/curator-test-2.7.1.jar
